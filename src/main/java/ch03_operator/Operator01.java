@@ -18,10 +18,10 @@ public class Operator01 {
                         변수와 데이터가 동일하다는 수학적인 의미가 아닙니다.
          */
 
-        int i2 = 20;
-        System.out.println(i2);
-        i2 = i2 + 30;
-        System.out.println(i2);
+//        int i2 = 20;
+//        System.out.println(i2);
+//        i2 = i2 + 30;
+//        System.out.println(i2);
 
         // 왼쪽과 오른쪽이 같다고 표시할 때는 ==
 
@@ -34,20 +34,53 @@ public class Operator01 {
             % : 나머지 연산자
          */
 
-        int a = 5;
-        int b = 2;
+//        int a = 5;
+//        int b = 2;
+//
+//        double result = (double) a / b;
+//        System.out.println(result);
+//        System.out.println(a % b);
 
-        double result = (double) a / b;
-        System.out.println(result);
-        System.out.println(a % b);
+        /*
+            복합 대입 연산자
+            1) +=
+            2) -=
+            3) *=
+            4) /=
+         */
 
+//        int num1 = 1;
+//        System.out.println(num1);
+//
+//        num1 += 2;                      // num1 = num1 + 2;
+//        System.out.println(num1);
+//
+//        num1 -= 1;                      // num1 = num1 - 1;
+//        System.out.println(num1);
+//
+//        num1 *= 10;                     // num1 = num1 * 10;
+//        System.out.println(num1);
+//
+//        num1 /= 5;                      // num1 = num1 / 5;
+//        System.out.println(num1);
 
+//        int j = 10;
+//        System.out.println(j);
+//        System.out.println(j++);        // 변수명++ : 코드를 실행시킨 후에 j에 1을 더함
+//        System.out.println(j);          // 그래서 다시 j를 출력시키면 -> 11
+//        System.out.println(++j);        // ++변수명 : 코드를 실행시키기 전에 j에 1을 더함 -> 12
+//        System.out.println(j);          // 결과값은 12
+//        System.out.println(j--);        // 변수명-- : 코드를 실행시킨 후에 1을 뺌
+//        System.out.println(j);          // -> 11
+//        System.out.println(--j);        // --변수명 : 코드를 실행시키기 전에 j에 1을 뺌 -> 10
+//        System.out.println(j);          // -> 10
 
-
-
-
-
-
+        int age = 10;
+        System.out.println("제 나이는 " + age + "살입니다.");
+        System.out.println("내년에는 " + age + 1 + "살이 됩니다.");
+        // 내년에는 101살이 됩니다. (x)
+        System.out.println("내년에는 " + (age + 1) + "살이 됩니다.");
+        // 내년에는 11살이 됩니다.
 
     }
 }

@@ -141,11 +141,5 @@ public class Main {
         System.out.println("저는 코리아 it 아카데미 4월 국비 과정을 수강하고 있는 " + name4 + "입니다. 나이는 "
         + age4 + "살입니다. " + "제 전공은 " + major4 + " 이며, MBTI는 " + mbti4 + "입니다. 열심히 할게요!!!" );
 
-
-
-
-
-
-
     }
 }
