@@ -76,10 +76,5 @@ public class Scanner01 {
 //        String name = scanner.nextLine();
 //        System.out.println(name + " 학생의 점수는 " + score + "점입니다.");
 
-
-
-
-
-
     }
 }
