@@ -45,21 +45,21 @@ public class Condition03 {
         // 반복되는 부분이 너무 많은 것 같아서 줄이기
 
         // 등급을 저장하는 변수를 하나 선언
-        String userGRade = "";              // 아직 데이터에 아무런 값 X
+        String userGrade = "";              // 아직 데이터에 아무런 값 X
 
         if (point > 80) {
-            userGRade = "VIP";
+            userGrade = "VIP";
         } else if (point > 60) {
-            userGRade = "GOLD";
+            userGrade = "GOLD";
         } else if (point > 40) {
-            userGRade = "SILVER";
+            userGrade = "SILVER";
         } else if (point > 20) {
-            userGRade = "BRONZE";
+            userGrade = "BRONZE";
         } else if (point <= 20) {
-            userGRade = "NORMAL";
+            userGrade = "NORMAL";
         }
 
-        System.out.println("회원등급 : " +userGRade);
+        System.out.println("회원등급 : " + userGrade);
 
         // if - else / if - else if문의 경우 전체가 한 세트의 조건문으로 볼 필요가 있습니다.
     }
