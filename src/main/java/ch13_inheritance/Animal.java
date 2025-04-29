@@ -1,15 +1,12 @@
 package ch13_inheritance;
 
 public class Animal {
-
     // 필드 생성
     private String animalName;
     private int animalAge;
 
-    // 기본생성자및 매개변수 생성자(하나짜리 두개 / 두개짜리 하나 생성하세요)
-
-    public Animal(){
-
+    // 기본 생성자 및 매개변수 생성자(하나짜리 두개 / 두개짜리 하나 생성하세요)
+    public Animal() {
     }
 
     public Animal(String animalName) {
@@ -24,6 +21,7 @@ public class Animal {
         this.animalName = animalName;
         this.animalAge = animalAge;
     }
+    // setter / getter도 생성하세요(총 4개)
 
     public String getAnimalName() {
         return animalName;
@@ -47,4 +45,3 @@ public class Animal {
     }
 
 }
-
